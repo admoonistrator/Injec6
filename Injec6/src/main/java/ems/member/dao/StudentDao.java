@@ -17,4 +17,8 @@ public class StudentDao {
 	public  void insert(Student student) {
 		studentDB.put(student.getsNum(), student);
 	}
+	
+	public void update(Student student) {
+		studentDB.put(student.getsNum(), student);
+	}
 }

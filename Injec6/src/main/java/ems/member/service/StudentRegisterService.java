@@ -4,11 +4,11 @@ import ems.member.Student;
 import ems.member.dao.StudentDao;
 
 public class StudentRegisterService {
-	
-	private StudentDao studentDao;
 
+	private StudentDao studentDao;
+	
 	public StudentRegisterService(StudentDao studentDao) {
-			this.studentDao=studentDao;
+		this.studentDao = studentDao;
 	}
 	
 	public void register(Student student) {
