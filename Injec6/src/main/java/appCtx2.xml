@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
  		http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="dataBaseConnectionInfoDev" class="ems.member.DataBaseConnectionInfo">
+	<bean id="dataBaseConnectionInfoDev" class="ems.member.DataBaseConnectionInfo">
 		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe" />
 		<property name="userId" value="scott" />
 		<property name="userPw" value="tiger" />
@@ -16,7 +16,5 @@
 		<property name="userId" value="masterid" />
 		<property name="userPw" value="masterpw" />
 	</bean>
-
-
 	
 </beans>
